@@ -5,7 +5,6 @@
 # Description - This is the HTML code for Tania Bezerra's portfolio website. It showcases Tania's personal information, work, and contact details.
 
 # Table of Contents
- # Introduction
  * About Me
     * Work
     * Project A
