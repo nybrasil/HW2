@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* changed font-family */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* replaced the backgroung-color for a pic and changed color from black to white*/
 header {
-    background-color: rgb(192, 190, 190);
     padding: 1rem;
-    background-image: url(./images/Pic\ of\ the\ sky.jpeg);
+    background-image: url(images/240_F_487196520_GiPcqzQyBwbo0heCKZKCsy6Chrn3sdIN.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .header-container {
@@ -25,7 +27,7 @@ header {
    
     
 }
-
+/* used border-radio for the avatar */
 .avatar {
     width: 150px;
     height: 150px;
@@ -40,7 +42,7 @@ nav li {
     margin-left: 1rem;
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 nav a:hover {
@@ -56,6 +58,7 @@ section {
 section h2 {
     width: 25%;
     position: relative;
+    
 }
 section h2::after {
     content: '';
@@ -87,8 +90,23 @@ section h2::after {
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+/* add background-images*/
+
 #project-A {
-    background-color: transparent;
+    background-image: url(images/1000_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg)
+}
+#project-B {
+    background-image: url(images/240_F_634145612_3gDmvLxseyxQoqVjy2uqL1febeCWFPA2.jpg);
+}
+#project-C {
+    background-image: url(images/240_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg);
+}
+#project-D {
+    background-image: url(images/240_F_369710874_kk5feNC514J8bbN89O3c8kXV3tMCfh4G.jpg);
+}
+#project-E {
+    background-image: url(images/240_F_626085367_2bs3eS7R9BYmIEUqNwBS0AvTYhfLMql3.jpg);
 }
 .link-box-large {
     width: 100%;
@@ -114,6 +132,7 @@ section h2::after {
     border-style:solid;
     border-width: 10px;
 }
+/* add a link to my github */
 .project1-box {
     flex-basis: calc(100%);
     height: 250px;
